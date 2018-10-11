@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    cursor: default;
+}
+
+.container {
+    height: 100vh;
+}
+
+.header {
+    background: url("../resources/headerImg.jpg") 50% 57% no-repeat;
+    height: 107px;
+}
+
+.main-container {
+    display: flex;
+    height: 75%;
+}
+
+.main-container nav {
+    flex-basis: 20%;
+    background: #E1EBF1;
+    text-align: center;
+}
+
+.nav a {
+    display: block;
+    cursor: pointer;
+}
+
+.center-vertical {
+    margin-top: 75%;
+}
+
+.main-container article {
+    flex-basis: 60%;
+    background: #FAFAFA;
+    overflow: auto;
+}
+
+.main-container aside {
+    flex-basis: 20%;
+    background: #E1EBF1;
+}
+
+.order-title {
+    margin-top: 10px;
+}
+
+.form {
+    width: 75%;
+    margin: auto;
+}
+
+.input {
+    padding-left: 5px;
+    height: 32px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.select {
+    padding-left: 5px;
+    height: 32px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.select-label {
+    margin-top: 15px;
+    display: block;
+}
+
+.search-submit {
+    font-size: 16px;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid #6c757d;
+    background: #6c757d;
+    cursor: pointer;
+}
+
+.search-submit:focus {
+    outline: none;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+}
+
+.form textarea {
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    resize: none;
+}
+
+.form input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.footer {
+    height: 57px;
+     background: #2F3B47;
+    text-align: center;
+}
+
+.footer span {
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.table-article {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-article th {
+    border: 1px solid;
+}
+
+.table-article td {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: center;
+}
+
+.err-msg {
+    margin: auto;
+    font-size: 20px;
+}
+
+.article {
+    display: flex;
+}
+
+.customer-list {
+    margin-top: 20px;
+}

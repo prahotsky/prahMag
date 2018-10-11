@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laptop purchase</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="container">
+    <header class="header"></header>
+    <div class="main-container">
+        <nav class="nav">
+            <a href="index.html" class="center-vertical">Home</a>
+            <a href="resultsPage.html" target="_blank">Order summary</a>
+            <a href="#" id="cleanUp">Database cleanup</a>
+        </nav>
+        <article>
+            <form class="form" id="orderForm">
+                <h1 class="order-title">Notebook purchase</h1>
+                <input type="hidden" id="idInput">
+                <input type="text" placeholder="Full name" class="w-100 input" id="fullName" minlength="2" maxlength="100">
+                <input type="email" placeholder="E-mail" class="w-100 input" id="email" required maxlength="100">
+                <label for="laptopModel" class="select-label">Select a laptop model from the list:</label>
+                <select name="" id="laptopModel" class="w-100 select">
+                    <option value="Acer">Acer</option>
+                    <option value="Asus">Asus</option>
+					<option value="Apple">Apple</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Lenovo">Lenovo</option>
+                    <option value="HP">HP</option>
+                    <option value="DELL">DELL</option>
+                    <option value="MSI">MSI</option>
+                </select>
+                <input type="checkbox" id="checkBox" class="checkbox">
+                <label for="checkBox">Add RAM</label>
+                <br>
+                <input type="radio" class="checkbox radio" id="rad3" name="radiobutton" disabled value="2"> <label
+                    for="rad3">2 ГБ</label>
+                <input type="radio" class="checkbox radio" id="rad1" name="radiobutton" disabled value="4"> <label
+                    for="rad1">4 ГБ</label>
+                <input type="radio" class="checkbox radio" id="rad2" name="radiobutton" disabled value="8"> <label
+                    for="rad2">8 ГБ</label>
+                <br>
+                <br>
+                <label for="comment">Comments to the order:</label>
+                <textarea id="comment" rows="5" class="w-100" maxlength="100"></textarea>
+                <input type="submit" value="Submit" class="search-submit">
+            </form>
+        </article>
+        <aside></aside>
+    </div>
+    <footer class="footer">
+        <span>© Copyright. Prahotsky</span>
+    </footer>
+</div>
+<script src="../js/script.js"></script>
+</body>
+</html>
